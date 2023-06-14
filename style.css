@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: sans-serif;
-    color: white;
+    background-color: rgb(141, 0, 0);
 }
 
 h1{

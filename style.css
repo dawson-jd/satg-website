@@ -2,15 +2,54 @@ body {
     background-image: url('background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
+    font-family: sans-serif;
     color: white;
-}
-
-button{
-    color: white;
-    background-color: black;
 }
 
 h2{
     font-size: 75px;
+    position: absolute;
+    top: 265px;
+    font-family: sans-serif;
 }
+
+  /* Target the input text box */
+  input[type="text"] {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    top: 450px;
+  }
+
+  /* Button */
+  button {
+    width: 100px;
+    padding: 11px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 450px;
+    left: 435px;
+    font-family: sans-serif;
+  }
+
+  p{
+    font-size: 15px;
+    position: absolute;
+    top: 475px;
+    color: black;
+    font-family: sans-serif;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    color: black;
+    font-family: sans-serif;
+  }

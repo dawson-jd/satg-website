@@ -10,17 +10,32 @@ h2{
     font-size: 75px;
     position: absolute;
     top: 265px;
+    left: 10px;
     font-family: sans-serif;
 }
+
+h1{
+  position: absolute;
+  left: 100px;
+  top: 10px;
+  font-family: sans-serif;
+}
+
+.logo-image {
+  width: 85px; /* Set the width of the image */
+  left: 10px;
+}
+
 
   /* Target the input text box */
   input[type="text"] {
     width: 400px;
     padding: 10px;
     border: none;
-    background-color: #fff;
+    background-color: #ffffff;
     position: absolute;
     top: 450px;
+    left: 10px;
   }
 
   /* Button */
@@ -43,6 +58,7 @@ h2{
     top: 475px;
     color: black;
     font-family: sans-serif;
+    left: 10px;
   }
 
   footer {

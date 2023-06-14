@@ -6,19 +6,21 @@ body {
     color: white;
 }
 
+h1{
+  position: absolute;
+  left: 100px;
+  top: 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
 h2{
     font-size: 75px;
     position: absolute;
     top: 265px;
     left: 10px;
     font-family: sans-serif;
-}
-
-h1{
-  position: absolute;
-  left: 100px;
-  top: 10px;
-  font-family: sans-serif;
+    color: white;
 }
 
 .logo-image {
@@ -53,10 +55,10 @@ h1{
   }
 
   p{
-    font-size: 15px;
+    font-size: 12px;
     position: absolute;
-    top: 475px;
-    color: black;
+    top: 485px;
+    color: white;
     font-family: sans-serif;
     left: 10px;
   }
